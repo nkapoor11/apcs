@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>360</y>
+      <w>160</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+-grade: String
+--
++Student()
++Student(g: String)
++toString(): String
++getGrade(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>20</y>
+      <w>210</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Date
+--
+-month: int
+-day: int
+-year: int
+--
++Date()
++Date(m: int, d: int, y: int)
++getMonth(): int
++getDay(): int
++getYear(): int
++getDateString(): String
++setDate(m: int, d: int, y: int): void
++setMonth(m: int): void
++setDay(d: int): void
++setYear(y: int): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>380</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+-name: String
+-address: String
+-email: String
+-phone: String
+-birthDate: Date
+--
++Person()
++Person(n: String, a: String, e: String p: String b: Date)
++toString(): String
++getName(): String
++getAddress(): String
++getPhone(): String
++getEmail(): String
++getBirthDate(): Date</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>250</x>
+      <y>360</y>
+      <w>210</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Employee
+--
+-hireDate: Date
+-salary: double
+--
++Employee()
++Employee(h: Date, s: double)
++toString(): String
++getHireDate(): Date
++getSalary(): double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>580</y>
+      <w>230</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Faculty
+--
+-officeHours: String
+-rank: String
+--
++Faculty()
++Faculty(o: String, r: String)
++toString(): String
++getOfficeHours(): String
++getRank(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>600</y>
+      <w>160</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Staff
+--
+-jobTitle: String
+--
++Staff()
++Staff(j: String)
++toString(): String
++getJobTitle(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>260</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>260</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>520</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>520</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>100</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+
+uses &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+</diagram>
