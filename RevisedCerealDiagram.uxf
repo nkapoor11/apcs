@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.ActivityDiagramText</type>
+    <coordinates>
+      <x>360</x>
+      <y>50</y>
+      <w>358</w>
+      <h>719</h>
+    </coordinates>
+    <panel_attributes>title:Revised Cereal Bowl
+Start
+Get a Bowl
+Get a spoon
+If
+	[no milk]
+	Get milk at store
+
+	[have milk]
+	Get milk
+EndIf
+
+If
+	[no cereal]
+	Get cereal at store
+
+	[have cereal]
+	Get Cereal
+	
+Add Cereal to bowl
+Add milk to bowl
+
+End
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

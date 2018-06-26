@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.ActivityDiagramText</type>
+    <coordinates>
+      <x>140</x>
+      <y>80</y>
+      <w>382</w>
+      <h>547</h>
+    </coordinates>
+    <panel_attributes>title:DVD Order
+Start
+Receive DVD Order
+Fork
+	
+	Fill Order
+	Deliver Order
+
+	Send Invoice 
+	If 
+	[payment received]
+	Process Payment
+	
+Fork
+Close Order
+End
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
