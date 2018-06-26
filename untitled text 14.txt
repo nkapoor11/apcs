@@ -1,0 +1,12 @@
+/**
+ * This program solves the ACSL Contest 2 Programming Problem.
+ * @author Neil Kapoor
+*/
+
+import java.util.Scanner;
+
+public class Contest2 {
+	Scanner input = new Scanner(System.in);
+	System.out.println("Enter a line of input, and press enter to input the next line of input.");
+	String line1 = input.nextString(); 
+}

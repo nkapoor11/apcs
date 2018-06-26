@@ -1,0 +1,6 @@
+Write a program that reads a text file and counts the number of characters, words, sentences. and paragraphs. A blank space or tab character should be used to delimit a word, a period.
+Write a program. that reads a text file and counts the .number of characters, words, sentences. 
+and paragraphs. A blank space or tab character should be used to delimit a word, a period.
+Write a program that reads a text file and counts the number of characters, words, sentences.
+and paragraphs. A blank space or tab character should be used to delimit a word, a period. Write a program. that reads a text file and counts the .number of characters, words, sentences.
+and paragraphs. A blank space or tab character should be used to delimit a word, a period.
